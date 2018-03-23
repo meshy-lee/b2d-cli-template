@@ -85,7 +85,7 @@ module.exports = {
       message: 'Pick an ESLint preset',
       choices: [
         {
-          name: 'Standard (https://github.com/standard/standard)',
+          name: 'Standard B2D的同学请使用(https://github.com/standard/standard)',
           value: 'standard',
           short: 'Standard',
         },
@@ -93,11 +93,6 @@ module.exports = {
           name: 'Airbnb (https://github.com/airbnb/javascript)',
           value: 'airbnb',
           short: 'Airbnb',
-        },
-        {
-          name: 'none (configure it yourself)',
-          value: 'none',
-          short: 'none',
         },
       ],
     },
