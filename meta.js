@@ -37,7 +37,7 @@ module.exports = {
       when: 'isNotTest',
       type: 'string',
       required: true,
-      message: 'Project name',
+      message: 'Project name。开发者中心站群项目请到config/index.js去修改build对应的assetsPublicPath属性。',
     },
     description: {
       when: 'isNotTest',
@@ -74,6 +74,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    vuex: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install vuex?',
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
@@ -85,7 +90,7 @@ module.exports = {
       message: 'Pick an ESLint preset',
       choices: [
         {
-          name: 'Standard B2D的同学请使用(https://github.com/standard/standard)',
+          name: 'Standard B2D的同学请统一使用(https://github.com/standard/standard)',
           value: 'standard',
           short: 'Standard',
         },

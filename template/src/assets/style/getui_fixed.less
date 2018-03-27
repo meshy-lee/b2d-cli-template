@@ -1,0 +1,69 @@
+@import './base.less';
+html {
+    overflow: auto;
+}
+
+body {
+    background: none;
+}
+
+.gt-modal {
+    z-index: 10000;
+}
+
+.gt-open-modal {
+    padding-right: 0;
+}
+
+.gt-backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@modal-border-color: #1a527f;
+@modal-bg-color: #103b5e;
+// .gt-modal__content {
+//     background: @modal-bg-color;
+//     .gt-modal__header {
+//         border-bottom-color: @modal-border-color;
+//         .gt-modal__header__title {
+//             color: #ffffff;
+//         }
+//     }
+//     .gt-btn-line {
+//         background: none;
+//         color: #cccccc;
+//         border-color: #666666;
+//     }
+//     .gt-modal__footer {
+//         border-top-color: @modal-border-color;
+//     }
+// }
+
+// .gt-modal__p {
+//     color: #ffffff;
+// }
+
+///表单
+// .gt-form-control {
+//     background: none;
+//     border-color: @modal-border-color;
+//     color: #cccccc;
+//     &:focus {
+//         border-color: #01acf3;
+//         box-shadow: 0 0 8px rgba(1, 172, 243, .6);
+//     }
+// }
+.gt-btn-line {
+  min-width: 78px;
+  i{
+      font-size: 14px;
+      margin-right: 10px;
+  }
+}
+.gt--error {
+    .gt-form-control {
+        &:focus {
+            box-shadow: 0 0 8px rgba(241, 100, 100, .6);
+        }
+    }
+}

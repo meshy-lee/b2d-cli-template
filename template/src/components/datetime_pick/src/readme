@@ -1,0 +1,30 @@
+配置项说明：
+    一、gtDatePick：
+        1.placeholder:提示信息
+        2.begin:时间选择的最小可选日期
+        3.end:时间选择的最大可选日期
+
+    二、gtTimePick
+        1.placeholder:提示信息
+        2.begin:时间选择的最小可选日期
+        3.end:时间选择的最大可选日期
+
+    三、gtDateTimePick
+        1.datePlaceholder:日期选择部分提示信息
+        2.datePlaceholder:时间选择部分提示信息
+        3.begin:时间选择的最小可选日期时间
+        4.end:时间选择的最大可选日期时间
+        5.showTime:是否显示时间选择部分
+
+    四、gtDatetimeRange
+        1.minRange:最小选择区间跨度，默认为0
+        2.maxRange:最大选择区间跨度，默认为0
+        3.begin:起始时间最小可选择日期时间
+        4.end:起始时间最大可选择日期时间
+        5.min:整个区间选择器能选择的最小日期时间
+        6.max:整个区间选择器能选择的最大日期时间
+        7.showTime:是否显示时间选择部分
+        8.includeTime:在showTime为false的情况下起作用，是否在不显示时间选择部分的时候在返回结果中返回时间部分的字符串
+
+    五、gtDatetimeRangeSelect
+        配置项和gtDatetimeRange一样，只是在默认值的选择上做了一定的处理
